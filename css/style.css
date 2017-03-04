@@ -1,0 +1,177 @@
+body{
+  background: #ffffff;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+ /* header */
+
+header{
+  height: 450px;
+  background: #ffffff;
+}
+
+  #logo{
+    padding: 10px 0 5px 0;
+    text-align: center;
+    font-size: 50px;
+    color: rgba(0,0,0,0.7);
+    letter-spacing: 0.05em;
+    margin: 0;
+  }
+
+  #logo span{
+    display: inline-block;
+    padding: 0.1em 0.5em;
+    border: rgba(0,0,0,0.7) solid 8px;
+    margin: 0;
+  }
+
+      h1{
+        padding: 0;
+        margin-bottom: 0;
+      }
+
+      .intro{
+        font-size: 15px;
+        color: rgba(0,0,0,0.7);
+        letter-spacing: 0.02em;
+        margin: 0 0 20px 0;
+
+      }
+
+      .intro2{
+        font-size: 15px;
+
+        color: rgba(0,0,0,0.7);
+        letter-spacing: 0.02em;
+        margin: 15px 0 50px 0;
+      }
+
+        .intro2Description{
+          margin: 0 5px
+        }
+
+nav{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+    li{
+      display: inline-block;
+      text-decoration: none;
+    }
+      a{
+        text-transform: uppercase;
+        font-size: 20px;
+        margin: 30px 30px;
+        color: rgba(0,0,0,0.7);
+        text-decoration: none;
+
+      }
+
+      a:hover {
+      color: rgba(0,0,0,1);
+      text-decoration: underline;
+      text-decoration-color: #000000;
+
+    }
+
+        .current{
+        font-weight: bold;
+      }
+
+hr{
+  border: none;
+  width: 800px;
+  height: 3px;
+  background-color: rgba(0,0,0,0.7);
+  box-shadow: 3px 3px 5px #000000;
+
+}
+
+/* Bilder Indexpage */
+
+#homePictures {
+  text-align: center;
+  margin-top: 50px;
+}
+
+  #Picture_smokey{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 0 20px 0 20px;
+    border-style: double;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background: url("../img/Picture_smokey.jpeg") no-repeat 0 -50px;
+}
+
+  #Picture_funny{
+      display: inline-block;
+    	width: 200px;
+    	height: 200px;
+      margin: 0 20px 0 20px;
+      border-style: double;
+    	border-radius: 150px;
+    	-webkit-border-radius: 150px;
+    	-moz-border-radius: 150px;
+    	background: url("../img/Picture_funny.jpeg") no-repeat 0 -50px;
+  }
+
+
+  #Picture_normal{
+      display: inline-block;
+      width: 200px;
+      height: 200px;
+      margin: 0 20px 0 20px;
+      border-style: groove;
+      border-radius: 150px;
+      -webkit-border-radius: 150px;
+      -moz-border-radius: 150px;
+      background: url("../img/Picture_normal.jpeg") no-repeat 0 -50px;
+  }
+
+/* contact form */
+
+  #contact{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    display: inline-block;
+    color: rgba(0,0,0,0.7);
+  }
+
+    #contact h1{
+      font-size: 25px;
+      margin-bottom: 30px;
+    }
+
+    #contact input {
+      padding: 10px;
+      font-size: 15px;
+    }
+
+    .button_1{
+      display: inline-block;
+      text-align: center;
+      font-size: 15px;
+      background-color: #ffffff;
+      border: 3px rgba(0,0,0,0.7) solid;
+      padding: 12px;
+      margin-bottom: 5px;
+      -webkit-transition-duration: 0.4s;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+
+      .button_1:hover {
+        background-color: rgba(0,0,0,0.7);
+        color: #ffffff;
+        border: 3px rgba(0,0,0,0.7) solid;
+      }
